@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhushan's-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <a href="#" class="myLogo">
+        <img src="MyLogo.png" alt="logo" />
+      </a>
+      <!-- hamburger section -->
+      <nav class="menuButtonMain">
+        <a href="#" class="hamburgerOpen">
+          <img src="menuButton.png" alt="menu" width="18px" height="12px" />
+        </a>
+        <ul class="menuPage">
+          <div class="hamburgerClose">
+            <img src="closeMenu.png" alt="close" />
+          </div>
+          <div class="elements">
+            <li>
+              <a href="#section2" class="pageLink">Portfolio</a>
+            </li>
+            <li>
+              <a href="#About" class="pageLink">About</a>
+            </li>
+            <li>
+              <a href="#Contact" class="pageLink">Contact</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+
+      <!-- nav element update -->
+      <nav id="upperSection">
+        <a href="#" class="navbar">Portfolio</a>
+        <a href="#" class="navbar">About</a>
+        <a href="#" class="navbar">Contact</a>
+        <a href="#"><img src="mail.png" alt="E-Mail" class="navbar1" /></a>
+      </nav>
+    </header>
+
+    <!-- intropage -->
+    <section class="mainSentences">
+      <h1 class="mainSentenceText">
+        Hey There. <br />
+        I'm Bhushan.
+      </h1>
+      <h2 class="subSentenceText">I'm a Software Developer</h2>
+      <p class="littleParagraph">
+        I can help you build a product, feature, or website. Look through some
+        of my work and experience! If you like what you see and have a project
+        you need coded, don’t hesitate to contact me.
+      </p>
+      <ul class="connectIcons">
+        <li>
+          <a href="#" class="github">
+            <img src="github.png" alt="githubIcon" width="18px" height="20px" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="linkedin" alt="Icon">
+            <img
+              src="linkedin.png"
+              alt="linkedinIcon"
+              width="18px"
+              height="20px"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="angelList" alt="Icon">
+            <img
+              src="angelList.png"
+              alt="angelList"
+              width="18px"
+              height="20px"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="twitter" alt="Icon">
+            <img src="twitter.png" alt="twitter" width="18px" height="20px" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="medium" alt="Icon">
+            <img src="medium.png" alt="medium" width="18px" height="20px" />
+          </a>
+        </li>
+      </ul>
+      <div class="background"></div>
+      <div class="background-D"></div>
+    </section>
+
+    <!-- my portfolio template -->
+    <section class="section2" id="section2">
+      
+      <div class="SecondPage">
+        <h2 class="MyRecentWorksTop">My Recent Works</h2>
+        <div class="multiPostPage" id="multiPostPage">
+          <div class="image2">
+            <img src="mainImage.png" alt="mainimage1" class="mainimage1" />
+            <img src="mainImage.png" alt="mainimage2" class="mainimage2" />
+          </div>
+          <div class="rightSection">
+            <h2 class="multiPostStories">Multi-Post Stories</h2>
+            <p class="pageInformation">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. This has been the industry's standard dummy
+              text ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul class="techStacks">
+              <li>
+                <button class="stackButton1" type="button">CSS</button>
+              </li>
+              <li>
+                <button class="stackButton1" type="button">HTML</button>
+              </li>
+              <li>
+                <button class="stackButton1" type="button">Bootstreap</button>
+              </li>
+              <li>
+                <button class="stackButton1" type="button">Ruby</button>
+              </li>
+            </ul>
+            <div class="projectButton">
+              <button class="firstProjectButton1" type="button" onClick="openPopup(0)">
+                See Project
+              </button>
+            
+              <!-- popup menu -->
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <button class="popup-close" onClick="closePopup()"><img src="close.png" alt="close"></button>
+                  <h2 id="popupName"></h2>
+                  <ul id="popupTechnologies"></ul>
+
+                  <div class="middleGrid">
+                    <div class="content">
+                      <p id="popupDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <div class="endButtons">
+                        <button class="endButton11" type="button" id="popupLiveLink">
+                          <img src="seelive.png" alt="seelive">
+                          See Live
+                        </button>
+                        <button class="endButton11" type="button" id="popupSourceLink">
+                          <img src="pagesource.png" alt="seelive">
+                          Page Source
+                        </button>
+                      </div>
+                    </div>
+                    <img id="popupImage" src="" alt="Popup Image">
+                  </div>
+                  
+
+                </div>
+              </div>
+              
+           
+          </div>
+          </div>
+        </div>
+
+      
+
+        <!-- these are my pages container -->
+        <div class="myProjects">
+          
+          <hr class="AboutLine1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- profile section -->
+    <section class="About" id="About">
+      <div class="AboutMePage">
+        <h2 class="Header">About Me</h2>
+        <p class="AboutMeTextSection">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hesitate to
+          contact me.
+        </p>
+        <p class="AboutMeTextSection-D">
+          Hey there! I can help you build a product, feature or website. Look
+          through some of my work and experience! If you like what you see and
+          have a project you need coded, don’t hesitate to contact me.
+        </p>
+        <div>
+          <button class="ResumeButton ResumeButton-D" type="button">
+            Get My Resume
+          </button>
+        </div>
+        <div class="secondBackgroundImage"></div>
+        <div class="secondBackgroundImage-D"></div>
+        <hr class="AboutLine2" />
+        <div class="MySkills">
+          <ul class="containerTech">
+            <ul class="tech1">
+              <li class="Language1">
+                <img src="Rectangle.png" alt="Rectangle" /> Language
+              </li>
+              <ul class="TechStacks techstacks1D">
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </ul>
+
+            <ul class="tech2">
+              <li class="Language1">
+                <img src="Rectangle2.png" alt="Rectangle" /> Frameworks
+              </li>
+              <ul class="TechStacks">
+                <li>React.js</li>
+                <li>Ruby on Rails</li>
+                <li>RSpec</li>
+                <li>Capybara</li>
+              </ul>
+            </ul>
+
+            <ul class="tech">
+              <li class="Language1">
+                <img src="Rectangle3.png" alt="Rectangle" /> skills
+              </li>
+              <ul class="TechStacks">
+                <li>Database Management</li>
+                <li>Version Control</li>
+                <li>CLI</li>
+                <li>API Design</li>
+                <li>Web Developement</li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- html form -->
+    <section class="Contact" id="Contact">
+      <div class="form">
+        <a href="#form"></a>
+        <div class="mainContent">
+          <h2 class="smallPara">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+          <form
+            class="firstForm"
+            id="form"
+            method="post"
+            action="https://formspree.io/f/xgedqoye"
+          >
+            <ul class="input">
+              <div class="subInput">
+                <li class="newInputName">
+                  <input
+                    name="Name"
+                    type="Text"
+                    id="Name"
+                    placeholder="Full name"
+                    maxlength="30"
+                    required
+                  />
+                  <div class="gaps1"></div>
+                </li>
+
+                <li class="newInputName01">
+                  <input
+                    name="Name"
+                    type="Text"
+                    id="Name"
+                    placeholder="First name"
+                    maxlength="30"
+                    required
+                  />
+                  <div class="gaps1"></div>
+                </li>
+                <li class="newInputName02">
+                  <input
+                    name="LastName"
+                    type="Text"
+                    id="Name"
+                    placeholder="Last name"
+                    maxlength="30"
+                    required
+                  />
+                  <div class="gaps11"></div>
+                </li>
+
+                <li class="newInputEmail">
+                  <input
+                    name="Email"
+                    type="Email"
+                    id="Email"
+                    placeholder="Email address"
+                    maxlength="30"
+                    required
+                  />
+                  <div class="gaps2"></div>
+                </li>
+
+                <li class="textArea" id="message">
+                  <textarea
+                    class="textArea1"
+                    name="message"
+                    id="textArea1"
+                    placeholder="Write me something..."
+                    maxlength="500"
+                    required
+                  ></textarea>
+                </li>
+
+                <li>
+                  <button class="submit" type="submit" value="submit">
+                    Get In Touch
+                  </button>
+                </li>
+              </div>
+            </ul>
+          </form>
+        </div>
+        <div class="gap2"></div>
+
+        <div class="lineD">
+          <img class="line3" src="Rectangle42.png" alt="image" width="100%" />
+          <ul class="connectIcons2 connectIcons22">
+            <li>
+              <a href="#" class="github">
+                <img
+                  src="github2.png"
+                  alt="githubIcon"
+                  width="18px"
+                  height="20px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="linkedin" alt="Icon">
+                <img
+                  src="linkedin2.png"
+                  alt="linkedinIcon"
+                  width="18px"
+                  height="20px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="angelList" alt="Icon">
+                <img
+                  src="angelList2.png"
+                  alt="angelList"
+                  width="18px"
+                  height="20px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter" alt="Icon">
+                <img
+                  src="twitter2.png"
+                  alt="twitter"
+                  width="18px"
+                  height="20px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="medium" alt="Icon">
+                <img
+                  src="medium2.png"
+                  alt="medium.png"
+                  width="18px"
+                  height="20px"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="app.js"></script>
+</html>
