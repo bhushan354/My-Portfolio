@@ -130,12 +130,11 @@ Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Bhushan Deshmukh
-
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+Bhushan Deshmukh
+
 
 - GitHub: [@githubhandle](https://github.com/bhushan354)
 - Twitter: [@twitterhandle](https://twitter.com/Bhushan_4885)
