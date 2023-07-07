@@ -650,13 +650,11 @@
 }
 
 .AboutLine2 {
-  width: 95%;
+  width: 100%;
   top: 700px;
   position: absolute;
   border: 1px solid #fff;
   align-items: center;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .MySkills {
