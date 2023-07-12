@@ -1531,6 +1531,73 @@ input#Name {
     font-family: "Inter", sans-serif;
   }
 
-//
+  .textArea {
+    display: flex;
+    background-color: #FBF8F7
+;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #3C3A39
+;
+    text-align: left;
+    padding: 0;
+    height: 90px;
+    margin: 0;
+    margin-top: 65px;
+    width: 90%;    #textArea1 {
+      border: none;
+      width: 548px;
+      margin-left: 0;
+    }    #Email {
+      border: none;
+      width: 90%;
+    }    .button1 {
+      width: 136px;
+      height: 56px;
+      margin-top: -36px;
+      margin-left: 57px;
+      background-color: #FF6B00
+;
+    }    .gap2 {
+      margin-top: 0;
+    }    .line3 {
+      width: 100%;
+      margin-top: 18px;
+    }    .submit {
+      border: none;
+      background-color: #FF6B00
+;
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      font-style: normal;
+      font-family: "Inter", sans-serif;
+      margin-top: 10px;
+      margin-left: 0;
+      width: 124px;
+      height: 64px;
+      align-items: center;
+    }    .connectIcons22 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 24px;
+      list-style: none;
+      margin-left: 46%;
+      margin-top: 20px;
+      width: 200px;
+      height: 40px;
+    }
+
+
+
   }
 }
