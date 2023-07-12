@@ -2,14 +2,10 @@
 
 
 <div align="center">
- 
-   
-
 
   <h3><b>My Full Portfolio Project</b></h3>
 
 </div>
-
 
 
 # 📗 Table of Contents
@@ -31,7 +27,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -50,16 +45,6 @@
 1. Linters
 2. HTML
 3. CSS
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://indexhtml.org/">HTML</a></li>
-    <li><a href="https://stylecss.org/">CSS</a></li>
-    <li><a href="https://linters.org/">Linters</a></li>
-  </ul>
-</details>
 
 
 
@@ -130,12 +115,10 @@ Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Bhushan Deshmukh
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 **Author1**
+Bhushan Deshmukh
 
 - GitHub: [@githubhandle](https://github.com/bhushan354)
 - Twitter: [@twitterhandle](https://twitter.com/Bhushan_4885)
