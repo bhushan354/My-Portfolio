@@ -782,6 +782,10 @@
 
 input#Name {
   border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .newInputEmail {
@@ -795,15 +799,19 @@ input#Name {
   font-family: "Inter", sans-serif;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
-#Email {
+input#Email {
   border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .textArea {
-  margin-top: 6px;
+  margin-top: 24px;
   width: 100%;
 }
 
@@ -819,11 +827,13 @@ input#Name {
   letter-spacing: 0;
   color: #3c3a39;
   text-align: left;
-  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   height: 87px;
-  margin: 0;
-  margin-top: 20px;
-  width: 100%;
+  margin-top: 24px;
+  width: 90%;
 }
 
 .connectIcons2 {
@@ -841,7 +851,7 @@ input#Name {
 
 .line3 {
   width: 100%;
-  margin-top: 635px;
+  margin-top: 674px;
 }
 
 .subInput :nth-child(4) {
@@ -859,7 +869,7 @@ input#Name {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter", sans-serif;
-  margin-top: 14px;
+  margin-top: 24px;
   margin-left: 0;
   width: 131px;
   height: 48px;
