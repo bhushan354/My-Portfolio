@@ -754,6 +754,10 @@
   border: 1px solid #dbd8d7;
 }
 
+.subInput{
+  width: 100%;
+}
+
 .newInputName {
   font-weight: 400;
   display: flex;
@@ -765,6 +769,7 @@
   font-family: "Inter", sans-serif;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 10px;
 }
 
 .newInputName01 {
@@ -790,7 +795,7 @@ input#Name {
   font-family: "Inter", sans-serif;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 #Email {
@@ -817,7 +822,7 @@ input#Name {
   padding: 0;
   height: 87px;
   margin: 0;
-  margin-top: 0;
+  margin-top: 20px;
   width: 100%;
 }
 
@@ -839,6 +844,11 @@ input#Name {
   margin-top: 635px;
 }
 
+.subInput :nth-child(4) {
+  display: flex;
+  justify-content: center;
+}
+
 .submit {
   border: none;
   background-color: #ff6b00;
@@ -849,25 +859,25 @@ input#Name {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter", sans-serif;
-  margin-top: 10px;
+  margin-top: 14px;
   margin-left: 0;
-  width: 125px;
-  height: 64px;
+  width: 131px;
+  height: 48px;
   align-items: center;
 }
 
-.submitButton:hover {
+.submit:hover {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
 
-.submitButton:active {
+.submit:active {
   color: #f4f1f0;
   background-color: #e05304;
 }
 
-.submitButton:disabled {
+.submit:disabled {
   background-color: #f4f1f0;
   border: none;
   color: #5b5957;
