@@ -1059,6 +1059,7 @@ input#Email {
     grid-template-columns: repeat(2, 1fr);
     font-family: "Crete Round", sans-serif;
     font-size: 42px;
+
     /* margin-right: 0; */
     width: 100%;
     padding: 0;
@@ -1516,7 +1517,7 @@ input#Email {
     padding-right: 16px;
     width: 85%;
   }
-  
+
   input#Email {
     border: none;
     width: 95%;
@@ -1539,24 +1540,24 @@ input#Email {
   .textArea {
     margin-top: 24px;
     width: 100%;
-}
+  }
 
-.textArea1 {
-  display: flex;
-  background-color: #fbf8f7;
-  border: none;
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 20px;
-  margin-top: 0;
-  letter-spacing: 0;
-  color: #3c3a39;
-  text-align: left;
-  height: 80px;
-  width: 85%;
-}
+  .textArea1 {
+    display: flex;
+    background-color: #fbf8f7;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0;
+    letter-spacing: 0;
+    color: #3c3a39;
+    text-align: left;
+    height: 80px;
+    width: 85%;
+  }
 
   .button1 {
     width: 136px;
@@ -1604,12 +1605,14 @@ input#Email {
     width: 200px;
     height: 40px;
   }
-  .lineD{
+
+  .lineD {
     margin-top: 698px;
     width: 100%;
   }
+
   .subInput :nth-child(4) {
     display: flex;
     justify-content: flex-start;
-}
+  }
 }
