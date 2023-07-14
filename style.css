@@ -1494,7 +1494,6 @@ input#Email {
   }
 
   .newInputName {
-    margin-left: 0;
     font-weight: 400;
     display: flex;
     flex-direction: column;
