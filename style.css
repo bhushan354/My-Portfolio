@@ -48,6 +48,7 @@
 }
 
 * {
+  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -1110,7 +1111,7 @@ input#Email {
     margin-left: 0;
     margin-right: 0;
     height: 50px;
-    width: 448px;
+    width: 100%;
     font-size: 36px;
   }
 
@@ -1121,7 +1122,7 @@ input#Email {
     text-align: left;
     margin-right: 0;
     height: 128px;
-    width: 448px;
+    width: 100%;
     font-size: 18px;
   }
 
@@ -1131,7 +1132,7 @@ input#Email {
     margin-left: 0;
     margin-right: 0;
     height: 32px;
-    width: 56px;
+    width: 100%;
     font-size: 0;
   }
 
@@ -1154,13 +1155,12 @@ input#Email {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
-    width: 85%;
+    width: 72%;
     max-width: 1440px;
     height: 808px;
-    gap: 12px 30px;
+    gap: 12px 0;
     justify-content: center;
     margin-top: 16px;
-    margin-left: 0;
   }
 
   .screen1 {
@@ -1190,7 +1190,7 @@ input#Email {
     display: flex;
     margin-top: -1px;
     height: 388px;
-    width: 100%;
+    width: 90%;
     margin-left: 5px;
   }
 
@@ -1200,7 +1200,7 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 387px;
-    width: 100%;
+    width: 90%;
     margin-left: 5px;
   }
 
@@ -1210,7 +1210,7 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 387px;
-    width: 100%;
+    width: 90%;
     margin-left: 5px;
   }
 
@@ -1221,7 +1221,7 @@ input#Email {
     margin-top: 0;
     height: 388px;
     background-size: cover;
-    width: 100%;
+    width: 90%;
     margin-left: 5px;
   }
 
@@ -1231,7 +1231,7 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 388px;
-    width: 100%;
+    width: 90%;
     margin-left: 5px;
   }
 
@@ -1241,7 +1241,7 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 388px;
-    width: 100%;
+    width: 90%;
     margin-left: 5px;
   }
 
@@ -1480,20 +1480,12 @@ input#Email {
   }
 
   .gaps1 {
-    margin: 2px 0 0;
-    width: 216px;
-    border: 1px solid #dbd8d7;
-  }
-
-  .gaps11 {
-    margin: 2px 0 13px;
-    width: 216px;
+    width: 90%;
     border: 1px solid #dbd8d7;
   }
 
   .gaps2 {
-    margin: 2px 0 0;
-    width: 446px;
+    width: 90%;
     border: 1px solid #dbd8d7;
   }
 
@@ -1502,53 +1494,41 @@ input#Email {
   }
 
   .newInputName {
-    display: none;
     margin-left: 0;
-  }
-
-  .newInputName01 {
     font-weight: 400;
-    position: absolute;
     display: flex;
     flex-direction: column;
     flex: 1 auto;
     padding-right: 0;
     border: none;
+    width: 100%;
     font-family: "Inter", sans-serif;
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .newInputName02 {
-    font-weight: 400;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    flex: 1 auto;
-    padding-right: 0;
-    border: none;
-    font-family: "Inter", sans-serif;
-    margin-left: 240px;
-    margin-right: 0;
+    margin-top: 10px;
   }
 
   input#Name {
     border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 80%;
   }
 
   .newInputEmail {
-    margin-top: 32px;
-    margin-left: 0;
     font-weight: 400;
-    position: absolute;
-    width: 46%;
     display: flex;
     flex-direction: column;
     flex: 1 auto;
     padding-right: 0;
-    margin-right: 0;
     border: none;
+    width: 90%;
     font-family: "Inter", sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 24px;
   }
 
   .textArea {
@@ -1559,72 +1539,80 @@ input#Email {
     font-size: 15px;
     font-style: italic;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0;
     color: #3c3a39;
     text-align: left;
-    padding: 0;
-    height: 90px;
-    margin: 0;
-    margin-top: 65px;
+    height: 87px;
+    margin-top: 24px;
     width: 90%;
+  }
 
-    #textArea1 {
-      border: none;
-      width: 548px;
-      margin-left: 0;
-    }
+  .textArea1 {
+    display: flex;
+    background-color: #fbf8f7;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #3c3a39;
+    text-align: left;
+    height: 87px;
+    width: 90%;
+  }
 
-    #Email {
-      border: none;
-      width: 90%;
-    }
+  #Email {
+    border: none;
+    width: 90%;
+  }
 
-    .button1 {
-      width: 136px;
-      height: 56px;
-      margin-top: -36px;
-      margin-left: 57px;
-      background-color: #ff6b00;
-    }
+  .button1 {
+    width: 136px;
+    height: 56px;
+    margin-top: -36px;
+    margin-left: 57px;
+    background-color: #ff6b00;
+  }
 
-    .gap2 {
-      margin-top: 0;
-    }
+  .gap2 {
+    margin-top: 0;
+  }
 
-    .line3 {
-      width: 100%;
-      margin-top: 18px;
-    }
+  .line3 {
+    width: 100%;
+    margin-top: 18px;
+  }
 
-    .submit {
-      border: none;
-      background-color: #ff6b00;
-      display: flex;
-      justify-content: center;
-      color: #fff;
-      font-size: 17px;
-      font-weight: 700;
-      font-style: normal;
-      font-family: "Inter", sans-serif;
-      margin-top: 10px;
-      margin-left: 0;
-      width: 124px;
-      height: 64px;
-      align-items: center;
-    }
+  .submit {
+    border: none;
+    background-color: #ff6b00;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 124px;
+    height: 64px;
+    align-items: center;
+  }
 
-    .connectIcons22 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: row;
-      gap: 24px;
-      list-style: none;
-      margin-left: 46%;
-      margin-top: 20px;
-      width: 200px;
-      height: 40px;
-    }
+  .connectIcons22 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+    margin-left: 46%;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
   }
 }
