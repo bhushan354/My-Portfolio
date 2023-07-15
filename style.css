@@ -969,7 +969,7 @@ input#Email {
   .mainSentences {
     width: 100%;
     height: 652px;
-    margin-left: -1px;
+    margin-left: 0;
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -997,7 +997,7 @@ input#Email {
     line-height: 32px;
     align-items: center;
     color: #fff5e1;
-    margin-top: 55px;
+    margin-top: 26px;
     order: 2;
   }
 
@@ -1007,7 +1007,7 @@ input#Email {
     order: 3;
     font-weight: 400;
     line-height: 24px;
-    width: 55%;
+    width: 30%;
     padding: 6px 24px 0 142px;
     font-family: "Poppins", sans-serif;
     color: #fff;
@@ -1262,7 +1262,8 @@ input#Email {
   .PrintingData2-5D {
     display: flex;
     list-style: none;
-    width: 100%;
+    margin-left: 5px;
+    width: 98%;
     height: 82px;
     margin-top: 156px;
     padding-left: 0;
@@ -1280,10 +1281,11 @@ input#Email {
     font-size: 12px;
     font-weight: 400;
     color: #fff;
-    width: 100%;
     height: 78px;
     line-height: 125%;
     margin-top: 12px;
+    margin-left: 5px;
+    width: 98%;
     padding-left: 0;
   }
 
@@ -1300,11 +1302,12 @@ input#Email {
   .PrintingData3-6D {
     display: flex;
     list-style: none;
-    width: 100%;
+    margin-left: 5px;
+    width: 98%;
     height: 50px;
     margin-top: 190px;
     line-height: 44px;
-    font-size: 24px;
+    font-size: 23px;
     font-style: normal;
     font-family: "create Round", sans-serif;
     color: #fff;
@@ -1335,7 +1338,8 @@ input#Email {
     font-size: 12px;
     font-weight: 400;
     color: #fff;
-    width: 100%;
+    margin-left: 5px;
+    width: 98%;
     height: 76px;
     line-height: 125%;
     margin-top: 12px;
@@ -1345,7 +1349,8 @@ input#Email {
   .PrintingData4 {
     display: flex;
     list-style: none;
-    width: 100%;
+    margin-left: 5px;
+    width: 98%;
     height: 82px;
     margin-top: 156px;
     padding-left: 0;
@@ -1363,7 +1368,8 @@ input#Email {
     font-size: 12px;
     font-weight: 400;
     color: #fff;
-    width: 100%;
+    margin-left: 5px;
+    width: 98%;
     height: 78px;
     line-height: 125%;
     margin-top: 12px;
@@ -1415,7 +1421,7 @@ input#Email {
     bottom: 64%;
     right: 0;
     width: 36%;
-    height: 28%;
+    height: 32%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(background-2D.png);
@@ -1426,18 +1432,18 @@ input#Email {
   }
 
   .AboutLine2 {
-    width: 85%;
+    width: 80%;
     top: 538px;
     position: absolute;
     border: 1px solid #fff;
     align-items: center;
-    margin-left: 98px;
+    margin-left: 96px;
     margin-right: 15px;
   }
 
   .MySkills {
-    margin-left: 0;
-    width: 100%;
+    margin-left: 30px;
+    width: 96%;
     margin-top: 120px;
     align-items: center;
     justify-content: space-around;
