@@ -52,6 +52,8 @@
 
 1. Added Linters.yml file.
 2. Added index.html & style.css file.
+3. Added form .
+4. Added desktop version .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,6 +137,7 @@ Bhushan Deshmukh
 
 
 - [ ] Add my new projects
+- [ ] Add contact form 
 - [ ] make it ready for deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -48,7 +48,6 @@
 }
 
 * {
-  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -349,8 +348,8 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 58px;
+  height: 38px;
   background-color: #fff;
   color: #091e42;
   border: 2px solid #8993a4;
@@ -898,10 +897,10 @@ input#Email {
   .background-D {
     background-image: url(background-D.png);
     position: absolute;
-    top: 80px;
+    top: 75px;
     right: 0;
-    width: 454px;
-    height: 594px;
+    width: 460px;
+    height: 545px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -909,7 +908,7 @@ input#Email {
   #upperSection {
     display: flex;
     justify-content: end;
-    margin-right: 42px;
+    margin-right: 130px;
     margin-left: 88px;
     align-items: baseline;
     flex: 1;
@@ -950,16 +949,15 @@ input#Email {
     font-size: 15px;
     color: #fff;
     text-decoration: none;
-    margin-right: 32px;
+    margin-right: 28px;
     text-align: center;
-    align-items: center;
     margin-bottom: 26px;
     width: 60px;
     height: 18px;
   }
 
   .navbar1 {
-    align-items: center;
+    margin-right: 12px;
     margin-top: 12px;
     margin-bottom: -14px;
   }
@@ -1059,6 +1057,7 @@ input#Email {
     grid-template-columns: repeat(2, 1fr);
     font-family: "Crete Round", sans-serif;
     font-size: 42px;
+    color: #091e42;
 
     /* margin-right: 0; */
     width: 100%;
@@ -1073,7 +1072,7 @@ input#Email {
     width: 48%;
     align-items: center;
     margin-left: 345px;
-    border: 1px solid #212121;
+    border: 1px solid  #212121;
   }
 
   .multiPostPage {
@@ -1125,7 +1124,7 @@ input#Email {
     margin-right: 0;
     height: 128px;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .techStacks {
@@ -1183,6 +1182,21 @@ input#Email {
 
   .secondProjectButton {
     margin-top: 344px;
+  }
+
+  .stackButton {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 70px;
+    height: 36px;
+    background-color: #fff;
+    color: #091e42;
+    border: 2px solid #8993a4;
+    padding: 4px;
+    margin-top: 0;
   }
 
   .Screen1D {
@@ -1350,6 +1364,7 @@ input#Email {
   .Header {
     margin-left: 142px;
     width: 50%;
+    height: 88px;
   }
 
   .AboutMeTextSection {
@@ -1361,7 +1376,7 @@ input#Email {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    width: 50%;
+    width: 45%;
     padding: 6px 24px 0 142px;
     font-family: Poppins, sans-serif;
     color: rgb(255, 255, 255);
@@ -1370,6 +1385,7 @@ input#Email {
 
   .ResumeButton-D {
     margin-left: 144px;
+    margin-top: 26px;
   }
 
   .secondBackgroundImage-D {
@@ -1436,6 +1452,8 @@ input#Email {
   .smallPara {
     text-align: initial;
     width: 100%;
+    color: #262626;
+    background-color: #fff;
     margin-left: 0;
   }
 
