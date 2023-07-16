@@ -48,7 +48,6 @@
 }
 
 * {
-  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -285,7 +284,7 @@
 }
 
 .AboutLine1 {
-  width: 100%;
+  width: 90%;
   top: 830px;
   position: absolute;
   border: 1px solid #212121;
@@ -349,8 +348,8 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 58px;
+  height: 38px;
   background-color: #fff;
   color: #091e42;
   border: 2px solid #8993a4;
@@ -570,7 +569,7 @@
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: #1c1a19;
+  background-color: rgba(38, 38, 38, 1);
   flex-direction: column;
   padding-top: 120px;
   position: relative;
@@ -651,7 +650,7 @@
 }
 
 .AboutLine2 {
-  width: 95%;
+  width: 90%;
   top: 700px;
   position: absolute;
   border: 1px solid #fff;
@@ -715,7 +714,7 @@
   text-align: center;
   font-size: 24px;
   line-height: 44px;
-  width: 100%;
+  width: 98%;
   position: absolute;
   margin: 30px 0 0 0;
   font-family: "Inter", sans-serif;
@@ -898,10 +897,10 @@ input#Email {
   .background-D {
     background-image: url(background-D.png);
     position: absolute;
-    top: 80px;
+    top: 75px;
     right: 0;
-    width: 454px;
-    height: 594px;
+    width: 36%;
+    height: 622px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -909,7 +908,7 @@ input#Email {
   #upperSection {
     display: flex;
     justify-content: end;
-    margin-right: 42px;
+    margin-right: 9%;
     margin-left: 88px;
     align-items: baseline;
     flex: 1;
@@ -950,16 +949,15 @@ input#Email {
     font-size: 15px;
     color: #fff;
     text-decoration: none;
-    margin-right: 32px;
+    margin-right: 28px;
     text-align: center;
-    align-items: center;
     margin-bottom: 26px;
-    width: 60px;
+    width: 56px;
     height: 18px;
   }
 
   .navbar1 {
-    align-items: center;
+    margin-right: 12px;
     margin-top: 12px;
     margin-bottom: -14px;
   }
@@ -971,7 +969,7 @@ input#Email {
   .mainSentences {
     width: 100%;
     height: 652px;
-    margin-left: -1px;
+    margin-left: 0;
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -999,7 +997,7 @@ input#Email {
     line-height: 32px;
     align-items: center;
     color: #fff5e1;
-    margin-top: 55px;
+    margin-top: 26px;
     order: 2;
   }
 
@@ -1009,7 +1007,7 @@ input#Email {
     order: 3;
     font-weight: 400;
     line-height: 24px;
-    width: 55%;
+    width: 30%;
     padding: 6px 24px 0 142px;
     font-family: "Poppins", sans-serif;
     color: #fff;
@@ -1024,7 +1022,7 @@ input#Email {
     height: 20px;
     left: 0.5%;
     right: 96.11%;
-    top: 21.37%;
+    top: 252px;
     bottom: 89.19%;
     order: 2;
     margin-top: 140px;
@@ -1055,29 +1053,32 @@ input#Email {
   }
 
   .MyRecentWorksTop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     font-family: "Crete Round", sans-serif;
     font-size: 42px;
-    margin-right: 0;
+    color: #091e42;
+
+    /* margin-right: 0; */
     width: 100%;
     padding: 0;
-    margin-left: -31vw;
+    margin-left: -14px;
   }
 
   .AboutLine1 {
     height: 0;
     margin-top: 116px;
     display: flex;
-    width: 40%;
+    width: 48%;
     align-items: center;
-    margin-left: 446px;
-    border: 1px solid #212121;
+    margin-left: 345px;
+    border: 1px solid  #212121;
   }
 
   .multiPostPage {
-    margin-left: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 50% 50%;
   }
 
   .mainimage1 {
@@ -1092,16 +1093,14 @@ input#Email {
   .mainimage2 {
     display: flex;
     margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
     height: 412px;
     width: 100%;
   }
 
   .rightSection {
-    width: 90%;
+    width: 80%;
     height: 438px;
-    margin-left: 30px;
+    margin-left: 0;
     margin-top: 0;
   }
 
@@ -1109,6 +1108,7 @@ input#Email {
     display: flex;
     margin-top: 22px;
     margin-left: 0;
+    justify-content: flex-start;
     margin-right: 0;
     height: 50px;
     width: 100%;
@@ -1121,9 +1121,9 @@ input#Email {
     margin-left: 0;
     text-align: left;
     margin-right: 0;
-    height: 128px;
-    width: 100%;
-    font-size: 18px;
+    height: 148px;
+    width: 95%;
+    font-size: 16px;
   }
 
   .techStacks {
@@ -1152,13 +1152,12 @@ input#Email {
 
   .ThirdPage {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 26% 26% 26%;
+    grid-template-rows: 48% 48%;
     justify-items: center;
-    width: 72%;
-    max-width: 1440px;
+    width: 100%;
     height: 808px;
-    gap: 12px 0;
+    gap: 12px 16px;
     justify-content: center;
     margin-top: 16px;
   }
@@ -1183,6 +1182,21 @@ input#Email {
     margin-top: 344px;
   }
 
+  .stackButton {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 70px;
+    height: 36px;
+    background-color: #fff;
+    color: #091e42;
+    border: 2px solid #8993a4;
+    padding: 4px;
+    margin-top: 0;
+  }
+
   .Screen1D {
     background-image: url(1D.png);
     background-position: center top;
@@ -1190,8 +1204,8 @@ input#Email {
     display: flex;
     margin-top: -1px;
     height: 388px;
-    width: 90%;
-    margin-left: 5px;
+    width: 100%;
+    margin-left: 0;
   }
 
   .Screen2D {
@@ -1200,8 +1214,8 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 387px;
-    width: 90%;
-    margin-left: 5px;
+    width: 100%;
+    margin-left: 0;
   }
 
   .Screen3D {
@@ -1210,8 +1224,8 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 387px;
-    width: 90%;
-    margin-left: 5px;
+    width: 100%;
+    margin-left: 0;
   }
 
   .Screen4D {
@@ -1221,8 +1235,8 @@ input#Email {
     margin-top: 0;
     height: 388px;
     background-size: cover;
-    width: 90%;
-    margin-left: 5px;
+    width: 100%;
+    margin-left: 0;
   }
 
   .Screen5D {
@@ -1231,8 +1245,8 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 388px;
-    width: 90%;
-    margin-left: 5px;
+    width: 100%;
+    margin-left: 0;
   }
 
   .Screen6D {
@@ -1241,20 +1255,21 @@ input#Email {
     display: flex;
     margin-top: 0;
     height: 388px;
-    width: 90%;
-    margin-left: 5px;
+    width: 100%;
+    margin-left: 0;
   }
 
   .PrintingData2-5D {
     display: flex;
     list-style: none;
-    width: 295px;
-    height: 81px;
-    margin-top: 138px;
-    padding-left: 13px;
-    padding-top: 30px;
+    margin-left: 5px;
+    width: 98%;
+    height: 82px;
+    margin-top: 156px;
+    padding-left: 0;
+    padding-top: 0;
     line-height: 44px;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-family: "create Round", sans-serif;
     color: #fff;
@@ -1263,58 +1278,85 @@ input#Email {
   .textSegment2-5D {
     font-family: "poppins", sans-serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: #fff;
-    width: 300px;
-    height: 100px;
-    line-height: 24px;
-    margin-top: -9px;
-    padding-left: 13px;
+    height: 78px;
+    line-height: 125%;
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 98%;
+    padding-left: 0;
   }
 
   .builtWith {
-    margin-top: -7px;
+    margin-top: 14px;
+    padding-left: 0;
+    margin-left: 5px;
+    width: 90%;
+    display: flex;
+    gap: 5px;
+    list-style: none;
   }
 
   .PrintingData3-6D {
     display: flex;
     list-style: none;
-    width: 295px;
-    height: 81px;
-    margin-top: 143px;
-    padding-left: 13px;
-    padding-top: 30px;
+    margin-left: 5px;
+    width: 98%;
+    height: 50px;
+    margin-top: 190px;
     line-height: 44px;
-    font-size: 30px;
+    font-size: 23px;
     font-style: normal;
     font-family: "create Round", sans-serif;
     color: #fff;
   }
 
+  .buttonOfTechStack {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 0;
+    margin-top: 0;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: none;
+    width: 100%;
+    color: #fff;
+    padding: 8px;
+  }
+
+  .builtWith li {
+    width: 92px;
+  }
+
   .textSegment3-6D {
     font-family: "poppins", sans-serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: #fff;
-    width: 300px;
-    height: 100px;
-    line-height: 24px;
-    margin-top: -14px;
-    padding-left: 13px;
+    margin-left: 5px;
+    width: 98%;
+    height: 76px;
+    line-height: 125%;
+    margin-top: 12px;
+    padding-left: 0;
   }
 
   .PrintingData4 {
     display: flex;
     list-style: none;
-    width: 295px;
-    height: 81px;
-    margin-top: 143px;
-    padding-left: 13px;
-    padding-top: 30px;
+    margin-left: 5px;
+    width: 98%;
+    height: 82px;
+    margin-top: 156px;
+    padding-left: 0;
+    padding-top: 0;
     line-height: 44px;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-family: "create Round", sans-serif;
     color: #fff;
@@ -1323,14 +1365,15 @@ input#Email {
   .textSegment4 {
     font-family: "poppins", sans-serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: #fff;
-    width: 300px;
-    height: 94px;
-    line-height: 24px;
-    margin-top: -6px;
-    padding-left: 13px;
+    margin-left: 5px;
+    width: 98%;
+    height: 78px;
+    line-height: 125%;
+    margin-top: 12px;
+    padding-left: 0;
   }
 
   .secondProjectButtonD {
@@ -1348,6 +1391,7 @@ input#Email {
   .Header {
     margin-left: 142px;
     width: 50%;
+    height: 88px;
   }
 
   .AboutMeTextSection {
@@ -1359,7 +1403,7 @@ input#Email {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    width: 50%;
+    width: 45%;
     padding: 6px 24px 0 142px;
     font-family: Poppins, sans-serif;
     color: rgb(255, 255, 255);
@@ -1368,14 +1412,16 @@ input#Email {
 
   .ResumeButton-D {
     margin-left: 144px;
+    margin-top: 26px;
+    height: 52px;
   }
 
   .secondBackgroundImage-D {
     position: absolute;
-    bottom: 65%;
+    bottom: 64%;
     right: 0;
-    width: 452px;
-    height: 25%;
+    width: 36%;
+    height: 32%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(background-2D.png);
@@ -1386,18 +1432,18 @@ input#Email {
   }
 
   .AboutLine2 {
-    width: 85%;
+    width: 80%;
     top: 538px;
     position: absolute;
     border: 1px solid #fff;
     align-items: center;
-    margin-left: 98px;
+    margin-left: 96px;
     margin-right: 15px;
   }
 
   .MySkills {
-    margin-left: 0;
-    width: 100%;
+    margin-left: 30px;
+    width: 96%;
     margin-top: 120px;
     align-items: center;
     justify-content: space-around;
@@ -1407,8 +1453,8 @@ input#Email {
   .containerTech {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    width: 100%;
+    text-align: start;
+    width: 90%;
     margin-top: 78px;
   }
 
@@ -1432,8 +1478,10 @@ input#Email {
   }
 
   .smallPara {
-    text-align: end;
+    text-align: initial;
     width: 100%;
+    color: #262626;
+    background-color: #fff;
     margin-left: 0;
   }
 
@@ -1466,11 +1514,11 @@ input#Email {
     text-align: center;
     font-size: 24px;
     line-height: 44px;
-    width: 100%;
+    width: 80%;
     position: absolute;
     margin: 0 0 0 0;
     font-family: "Inter", sans-serif;
-    height: 300px;
+    height: 380px;
     order: 0;
     flex-grow: 0;
   }
@@ -1485,7 +1533,7 @@ input#Email {
   }
 
   .gaps2 {
-    width: 90%;
+    width: 100%;
     border: 1px solid #dbd8d7;
   }
 
@@ -1513,7 +1561,12 @@ input#Email {
     padding-bottom: 15px;
     padding-left: 16px;
     padding-right: 16px;
-    width: 80%;
+    width: 85%;
+  }
+
+  input#Email {
+    border: none;
+    width: 95%;
   }
 
   .newInputEmail {
@@ -1531,20 +1584,8 @@ input#Email {
   }
 
   .textArea {
-    display: flex;
-    background-color: #fbf8f7;
-    border: none;
-    font-family: "Inter", sans-serif;
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0;
-    color: #3c3a39;
-    text-align: left;
-    height: 87px;
     margin-top: 24px;
-    width: 90%;
+    width: 100%;
   }
 
   .textArea1 {
@@ -1552,20 +1593,16 @@ input#Email {
     background-color: #fbf8f7;
     border: none;
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-style: italic;
     font-weight: 400;
     line-height: 20px;
+    margin-top: 0;
     letter-spacing: 0;
     color: #3c3a39;
     text-align: left;
-    height: 87px;
-    width: 90%;
-  }
-
-  #Email {
-    border: none;
-    width: 90%;
+    height: 80px;
+    width: 85%;
   }
 
   .button1 {
@@ -1595,10 +1632,10 @@ input#Email {
     font-weight: 700;
     font-style: normal;
     font-family: "Inter", sans-serif;
-    margin-top: 10px;
+    margin-top: 24px;
     margin-left: 0;
-    width: 124px;
-    height: 64px;
+    width: 122px;
+    height: 54px;
     align-items: center;
   }
 
@@ -1613,5 +1650,15 @@ input#Email {
     margin-top: 20px;
     width: 200px;
     height: 40px;
+  }
+
+  .lineD {
+    margin-top: 698px;
+    width: 100%;
+  }
+
+  .subInput :nth-child(4) {
+    display: flex;
+    justify-content: flex-start;
   }
 }
