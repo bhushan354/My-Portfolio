@@ -146,14 +146,15 @@
 }
 
 .elements {
-  margin-top: -334px;
+  margin-top: -198px;
+  padding: 16px;
 }
 
 .pageLink {
   display: block;
-  padding: 20px;
+  padding: 16px;
   font-family: " inter", sans-serif;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   text-decoration: none;
   color: #fff5e1;
@@ -1289,7 +1290,7 @@ input#Email {
   }
 
   .builtWith {
-    margin-top: 14px;
+    margin-top: 21px;
     padding-left: 0;
     margin-left: 5px;
     width: 90%;
@@ -1377,6 +1378,63 @@ input#Email {
 
   .secondProjectButtonD {
     display: none;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    padding: 12px;
+    margin-top: 344px;
+    color: #fff;
+    border: none;
+    background-color: #ff6b00;
+  }
+
+  .secondProjectButtonD:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .secondProjectButtonD:active {
+    color: #f4f1f0;
+    background-color: #e05304;
+  }
+
+  .secondProjectButtonD:disabled {
+    background-color: #f4f1f0;
+    border: none;
+    color: #5b5957;
+  }
+
+  .hideCard:hover {
+    display: none;
+  }
+
+  .Screen2D:hover .secondProjectButtonD {
+    display: inline-block;
+    transition: all 0.8s ease-in;
+  }
+
+  .Screen3D:hover .secondProjectButtonD {
+    display: inline-block;
+    transition: all 0.8s ease-in;
+  }
+
+  .Screen4D:hover .secondProjectButtonD {
+    display: inline-block;
+    transition: all 0.8s ease-in;
+  }
+
+  .Screen5D:hover .secondProjectButtonD {
+    display: inline-block;
+    transition: all 0.8s ease-in;
+  }
+
+  .Screen6D:hover .secondProjectButtonD {
+    display: inline-block;
+    transition: all 0.8s ease-in;
   }
 
   /* about me page */
