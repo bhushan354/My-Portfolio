@@ -147,7 +147,7 @@
 
 .elements {
   margin-top: -198px;
-  padding: 16px;
+  padding: 26px;
 }
 
 .pageLink {
@@ -1392,17 +1392,20 @@ input#Email {
   }
 
   .secondProjectButtonD:hover {
+    display: inline-block;
     background-color: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
   }
 
   .secondProjectButtonD:active {
+    display: inline-block;
     color: #f4f1f0;
     background-color: #e05304;
   }
 
   .secondProjectButtonD:disabled {
+    display: inline-block;
     background-color: #f4f1f0;
     border: none;
     color: #5b5957;
