@@ -24,4 +24,4 @@ function handlePageLinkClick() {
 hamburgerOpenConst.addEventListener('click', openMenu);
 hamburgerCloseConst.addEventListener('click', closeMenu);
 
-
+https://microverse-students.slack.com/archives/D05J89NP094/p1690203035231909
