@@ -23,6 +23,7 @@ function handlePageLinkClick() {
 
 hamburgerOpenConst.addEventListener('click', openMenu);
 hamburgerCloseConst.addEventListener('click', closeMenu);
+
 pageLinkConst.forEach((item) => {
   item.addEventListener('click', handlePageLinkClick);
 });
