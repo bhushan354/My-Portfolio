@@ -48,6 +48,7 @@
 }
 
 * {
+  border: 1px solid green;
   margin: 0;
   padding: 0;
 }
@@ -891,6 +892,13 @@ input#Email {
   background-color: #f4f1f0;
   border: none;
   color: #5b5957;
+}
+/* popup */
+
+.mainDiv{
+  display: flex;
+  width: 343px;
+  height: 718px;
 }
 
 @media (min-width: 768px) {
