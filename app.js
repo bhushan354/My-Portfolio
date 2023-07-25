@@ -27,3 +27,15 @@ hamburgerCloseConst.addEventListener('click', closeMenu);
 pageLinkConst.forEach((item) => {
   item.addEventListener('click', handlePageLinkClick);
 });
+
+//popup mobile
+
+const projects = [
+  {
+    name: 'Multi Post Stories',
+    description: 'A daily selection of privately personalized reads...',
+    image: 'popupImg.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    liveLink: 'https://google.com',
+    sourceLink: 'https://google.com',
+  },
