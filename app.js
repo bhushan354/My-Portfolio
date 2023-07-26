@@ -91,80 +91,81 @@ const projects = [
 
 
 
-function displayPopup() {
+function displayPopup(projectIndex) {
+  const project = projects[projectIndex];
 
   const mainDivOne = document.querySelector('.mainDiv');
 
-const iconImg = document.createElement('img');
-iconImg.setAttribute('src', 'close.png'); 
-iconImg.setAttribute('class', 'iconOnTop');
+  const iconImg = document.createElement('img');
+  iconImg.setAttribute('src', 'close.png');
+  iconImg.setAttribute('class', 'iconOnTop');
 
+  mainDivOne.appendChild(iconImg);
 
-mainDivOne.appendChild(iconImg);
+  const mainDivTwo = document.createElement('div');
+  mainDivTwo.setAttribute('class', 'firstDiv');
+  mainDivOne.appendChild(mainDivTwo);
 
-const mainDivTwo = document.createElement('div') ;
-mainDivTwo.setAttribute('class', 'firstDiv');
-mainDivOne.appendChild(mainDivTwo);
+  const mainText = document.createElement('h1');
+  mainText.textContent = project.name;
+  mainDivTwo.appendChild(mainText);
 
-const mainText = document.createElement('h1');
-mainText.textContent = projects[0].name;
-mainDivTwo.appendChild(mainText);
+  const ul = document.createElement('ul');
+  ul.setAttribute('class', 'tech');
+  mainDivTwo.appendChild(ul);
 
-const ul = document.createElement('ul');
-ul.setAttribute('class', 'tech');
-mainDivTwo.appendChild(ul);
+  projects[0].technologies.forEach((tech) => {
+    const li = document.createElement('li');
+    const button = document.createElement('button');
+    button.setAttribute('class', 'techButton');
+    button.textContent = tech;
+    li.appendChild(button);
+    ul.appendChild(li);
+  });
 
-projects[0].technologies.forEach((tech) => {
-  const li = document.createElement('li');
-  const button = document.createElement('button');
-  button.setAttribute('class', 'techButton');
-  button.textContent = tech; 
-  li.appendChild(button); 
-  ul.appendChild(li); 
-});
+  const mainDivThree = document.createElement('Div');
+  mainDivThree.setAttribute('class', 'grid');
+  mainDivOne.appendChild(mainDivThree);
 
-const mainDivThree = document.createElement('Div');
-mainDivThree.setAttribute('class', 'grid');
-mainDivOne.appendChild(mainDivThree);
+  const popupImg = document.createElement('img');
+  popupImg.setAttribute('class', 'image');
+  mainDivThree.appendChild(popupImg);
 
-const popupImg = document.createElement('img');
-popupImg.setAttribute('class', 'image')
-mainDivThree.appendChild(popupImg);
+  const mainDivFour = document.createElement('div');
+  mainDivFour.setAttribute('class', 'gridTwo');
+  mainDivThree.appendChild(mainDivFour);
 
-const mainDivFour = document.createElement('div');
-mainDivFour.setAttribute('class', 'gridTwo');
-mainDivThree.appendChild(mainDivFour);
+  const description = project.description;
+  const paragraph = document.createElement('p');
+  paragraph.textContent = description;
+  mainDivFour.appendChild(paragraph);
 
-const description = projects[0].description;
+  const buttonDiv = document.createElement('div');
+  buttonDiv.setAttribute('class', 'btnContainer');
+  mainDivFour.appendChild(buttonDiv);
 
+  const button1 = document.createElement('button');
+  button1.setAttribute('class', 'btnLive');
+  button1.textContent = 'See Live';
+  const img1 = document.createElement('img');
+  img1.setAttribute('src', 'seelive.png');
+  button1.appendChild(img1);
+  buttonDiv.appendChild(button1);
 
-const paragraph = document.createElement('p');
-paragraph.textContent = description;
-mainDivFour.appendChild(paragraph);
+  const button2 = document.createElement('button');
+  button2.setAttribute('class', 'btnSource');
+  button2.textContent = 'See Source';
+  const img2 = document.createElement('img');
+  img2.setAttribute('src', 'pagesource.png');
+  button2.appendChild(img2);
+  buttonDiv.appendChild(button2);
 
+  mainDivOne.style.display = 'block';
+  document.body.appendChild(mainDivOne);
+  
 
-const buttonDiv = document.createElement('div');
-buttonDiv.setAttribute('class', 'btnContainer')
-mainDivFour.appendChild(buttonDiv);
-
-const button1 = document.createElement('button');
-button1.setAttribute('class', 'btnLive');
-button1.textContent = 'See Live';
-const img1 = document.createElement('img');
-img1.setAttribute('src', 'seelive.png');
-button1.appendChild(img1);
-buttonDiv.appendChild(button1);
-
-const button2 = document.createElement('button');
-button2.setAttribute('class', 'btnSource');
-button2.textContent = 'See Source';
-const img2 = document.createElement('img');
-img2.setAttribute('src', 'pagesource.png');
-button2.appendChild(img2); 
-buttonDiv.appendChild(button2);
-
-mainDivOne.style.display= 'block'; 
 }
+
 
 // multistories
 
@@ -251,8 +252,18 @@ multiPostContainer.appendChild(generatedMultiPostPage);
 // eventlistner for popup click
 multiPostContainer.addEventListener('click', function (event) {
   if (event.target.matches('.firstProjectButton')) {
-    displayPopup();
+  
+    const projectIndex = 0; 
+    displayPopup(projectIndex);
   }
 });
 
 
+const blurButton = document.querySelector('.firstProjectButton');
+const sections = document.querySelectorAll('section');
+
+blurButton.addEventListener('click', function () {
+  sections.forEach((section) => {
+    section.style.filter = 'blur(4px)';
+  });
+});

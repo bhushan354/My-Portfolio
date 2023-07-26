@@ -895,12 +895,24 @@ input#Email {
 }
 /* popup */
 
-.mainDiv{
- display: none;
-  position: relative; 
-  width: 80%;
-  min-height: 518px;
+.mainDiv {
+  display: none; 
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1002; 
+  opacity: 1; 
+  transition: opacity 0.3s ease-in;
 }
+
+
+
 
 .iconOnTop {
   position: absolute;
@@ -912,12 +924,13 @@ input#Email {
 
 
 .firstDiv{
-  margin-top: 20px;
+  margin-top: 12px;
   margin-left: 0;
-  width: 80%;
+  width: 100%;
 }
 .firstDiv h1{
   font-family: "popins";
+  font-size: 26px;
 }
 
 .tech{
@@ -939,8 +952,8 @@ input#Email {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 100%;
-  height: 43px;
+  width: 64px;
+  height: 34px;
   background-color: #fff;
   color: rgba(151, 148, 147, 1);
   border: 1px solid #8993a4;
