@@ -48,7 +48,6 @@
 }
 
 * {
-  border: 1px solid green;
   margin: 0;
   padding: 0;
 }
@@ -244,7 +243,8 @@ li {
   height: 40px;
 }
 
-/* from here adding many new things */
+/* secondpage */
+
 .SecondPage {
   margin-top: 0;
   justify-items: center;
@@ -399,6 +399,7 @@ li {
 
 .ThirdPage {
   display: grid;
+  row-gap: 12px;
   justify-items: center;
   grid-template-rows: repeat(6, 392px);
   grid-template-columns: 100%;
@@ -411,8 +412,8 @@ li {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 14px;
-  height: 372px;
+  margin-top: 4px;
+  height: 100%;
   width: 95%;
   margin-left: 0;
 }
@@ -477,12 +478,17 @@ li {
   margin-left: 0;
 }
 
+.hideCard {
+  width: 100%;
+  height: 372px;
+}
+
 .PrintingData {
   display: flex;
   list-style: none;
   width: 100%;
   height: 88px;
-  margin-top: 58px;
+  margin-top: 65px;
   padding-left: 0;
   padding-top: 0;
   line-height: 47px;
@@ -513,8 +519,8 @@ li {
 }
 
 .builtWith1 {
-  margin-top: 0;
-  padding-left: 13px;
+  margin-top: 16px;
+  padding-left: 4px;
   display: flex;
   list-style: none;
 }
@@ -524,13 +530,13 @@ li {
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
-  margin-right: 12px;
-  margin-top: 2px;
+  margin-right: 8px;
+  margin-top: 0;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 0.24);
   border: none;
   color: #fff;
-  padding: 10px 12px;
+  padding: 8px;
 }
 
 .secondProjectButton {
@@ -542,7 +548,8 @@ li {
   cursor: pointer;
   text-align: center;
   padding: 12px;
-  margin-top: 28px;
+  margin-top: 12px;
+  width: 100%;
   color: #fff;
   border: none;
   background-color: #ff6b00;
@@ -574,7 +581,7 @@ li {
   flex-direction: column;
   padding-top: 120px;
   position: relative;
-  margin-top: 0;
+  margin-top: 12px;
   background-repeat: no-repeat;
   margin-left: 0;
 }
@@ -893,69 +900,69 @@ input#Email {
   border: none;
   color: #5b5957;
 }
-/* popup */
+
+/* popup for mobile */
 
 .mainDiv {
-  display: none; 
-  position: fixed; 
+  display: none;
+  position: fixed;
   top: 50%;
   left: 50%;
+  width: 78%;
   transform: translate(-50%, -50%);
   max-height: 90vh;
   overflow-y: auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  z-index: 1002; 
-  opacity: 1; 
+  z-index: 1002;
+  opacity: 1;
   transition: opacity 0.3s ease-in;
 }
 
-
-
-
 .iconOnTop {
   position: absolute;
-  top: 10px; 
-  right: 10px; 
-  width: 20px; 
-  height: 20px; 
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
 }
 
-
-.firstDiv{
+.firstDiv {
   margin-top: 12px;
   margin-left: 0;
   width: 100%;
 }
-.firstDiv h1{
-  font-family: "popins";
+
+.firstDiv h1 {
+  font-family: "popins", sans-serif;
   font-size: 26px;
 }
 
-.tech{
+.tech {
   display: flex;
   gap: 12px;
   list-style: none;
-  width: 90%;
+  width: 226px;
   margin-top: 20px;
   margin-left: 0;
 }
-.tech li{
+
+.tech li {
   width: 100%;
 }
 
-.techButton{
-  font-weight: 400;
-  font-size: 11px;
-  font-family: "popins";
+.techButton {
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "popins", sans-serif;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 64px;
+  width: 100%;
   height: 34px;
   background-color: #fff;
-  color: rgba(151, 148, 147, 1);
+  color: rgba(60, 58, 57, 1);
   border: 1px solid #8993a4;
   padding: 4px;
   margin-top: 0;
@@ -969,19 +976,22 @@ input#Email {
   grid-template-columns: 100%;
   grid-template-rows: 140px 200px;
 }
-.image{
+
+.image {
   width: 100%;
   height: 100%;
   background-image: url('popupImg.png');
-  background-size: cover; 
+  background-size: cover;
   background-position: center center;
 }
+
 .gridTwo {
   height: 100%;
   width: 100%;
 }
+
 .gridTwo p {
-  font-family: serif ;
+  font-family: serif;
   width: 100%;
   height: 80%;
 }
@@ -994,11 +1004,11 @@ input#Email {
 }
 
 .btnLive {
-  width:110px;
-  height: 100%;
+  width: 100px;
+  height: 30px;
   display: inline-block;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   cursor: pointer;
@@ -1008,8 +1018,6 @@ input#Email {
   color: #fff;
   border: none;
   background-color: #ff6b00;
-}
-.btnLive img {
 }
 
 .btnLive:hover {
@@ -1029,8 +1037,8 @@ input#Email {
 }
 
 .btnSource {
-  width:110px;
-  height: 100%;
+  width: 100px;
+  height: 30px;
   display: inline-block;
   font-family: "Inter", sans-serif;
   font-size: 14px;
@@ -1060,7 +1068,6 @@ input#Email {
   background-color: #f4f1f0;
   border: none;
 }
-
 
 @media (min-width: 768px) {
   .background-D {
@@ -1335,22 +1342,6 @@ input#Email {
     display: grid;
   }
 
-  .PrintingData {
-    display: none;
-  }
-
-  .textSegment {
-    display: none;
-  }
-
-  .builtWith1 {
-    display: none;
-  }
-
-  .secondProjectButton {
-    margin-top: 344px;
-  }
-
   .stackButton {
     font-weight: 400;
     font-size: 12px;
@@ -1458,16 +1449,6 @@ input#Email {
     padding-left: 0;
   }
 
-  .builtWith {
-    margin-top: 21px;
-    padding-left: 0;
-    margin-left: 5px;
-    width: 90%;
-    display: flex;
-    gap: 5px;
-    list-style: none;
-  }
-
   .PrintingData3-6D {
     display: flex;
     list-style: none;
@@ -1545,71 +1526,252 @@ input#Email {
     padding-left: 0;
   }
 
-  .secondProjectButtonD {
+  /* popupbutton */
+
+  .secondProjectButton {
     display: none;
     font-family: "Inter", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
     cursor: pointer;
+    width: 100%;
+    margin-top: 342px;
     text-align: center;
     padding: 12px;
-    margin-top: 344px;
     color: #fff;
     border: none;
     background-color: #ff6b00;
   }
 
-  .secondProjectButtonD:hover {
-    display: inline-block;
+  .secondProjectButton:hover {
     background-color: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
   }
 
-  .secondProjectButtonD:active {
-    display: inline-block;
+  .secondProjectButton:active {
     color: #f4f1f0;
     background-color: #e05304;
   }
 
-  .secondProjectButtonD:disabled {
-    display: inline-block;
+  .secondProjectButton:disabled {
     background-color: #f4f1f0;
     border: none;
     color: #5b5957;
   }
 
-  .hideCard:hover {
+  .Screen2D:hover .secondProjectButton {
+    display: inline-block;
+  }
+
+  .hideCard {
+    display: block;
+  }
+
+  .hideCard:hover > *:not(:last-child) {
     display: none;
   }
 
-  .Screen2D:hover .secondProjectButtonD {
-    display: inline-block;
-    transition: all 0.8s ease-in;
+  .PrintingData {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 92px;
+    margin-top: 114px;
+    padding-left: 0;
+    padding-top: 0;
+    line-height: 47px;
+    font-size: 26px;
+    font-style: normal;
+    font-family: "create Round", sans-serif;
+    color: rgb(255, 255, 255);
   }
 
-  .Screen3D:hover .secondProjectButtonD {
-    display: inline-block;
-    transition: all 0.8s ease-in;
+  .textSegment {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    height: 128px;
+    line-height: 24px;
+    margin-top: 12px;
+    padding-left: 0;
   }
 
-  .Screen4D:hover .secondProjectButtonD {
-    display: inline-block;
-    transition: all 0.8s ease-in;
+  /* popup for desktop */
+  .mainDiv {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 86%;
+    height: 85%;
+    transform: translate(-50%, -50%);
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1002;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
   }
 
-  .Screen5D:hover .secondProjectButtonD {
-    display: inline-block;
-    transition: all 0.8s ease-in;
+  .iconOnTop {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
   }
 
-  .Screen6D:hover .secondProjectButtonD {
+  .firstDiv {
+    margin-top: 12px;
+    margin-left: 0;
+    width: 98%;
+  }
+
+  .firstDiv h1 {
+    color: rgba(23, 43, 77, 1);
+    font-family: "popins", sans-serif;
+    font-size: 34px;
+  }
+
+  .tech {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    width: 276px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .tech li {
+    width: 100%;
+  }
+
+  .builtWith1 {
+    margin-top: 0;
+    gap: 12px;
+    padding-left: 4px;
+    display: flex;
+    list-style: none;
+  }
+
+  .techButton {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "popins", sans-serif;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    transition: all 0.8s ease-in;
+    width: 100%;
+    height: 34px;
+    background-color: #fff;
+    color: rgba(60, 58, 57, 1);
+    border: 1px solid #8993a4;
+    padding: 4px;
+    margin-top: 0;
+  }
+
+  .grid {
+    margin-top: 30px;
+    column-gap: 14px;
+
+    /* height: 10%; */
+    display: grid;
+    width: 99%;
+    height: 72%;
+    grid-template-columns: 60% 38%;
+    grid-template-rows: 100%;
+  }
+
+  .btnContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    width: 100%;
+    height: 38px;
+  }
+
+  .btnLive {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    padding: 4px;
+    margin-top: 0;
+    color: #fff;
+    border: none;
+    background-color: #ff6b00;
+  }
+
+  .btnLive:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .btnLive:active {
+    color: #f4f1f0;
+    background-color: #e05304;
+  }
+
+  .btnLive:disabled {
+    background-color: #f4f1f0;
+    border: none;
+  }
+
+  .btnSource {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    padding: 4px;
+    margin-top: 0;
+    color: #fff;
+    border: none;
+    background-color: #ff6b00;
+  }
+
+  .btnSource:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .btnSource:active {
+    color: #f4f1f0;
+    background-color: #e05304;
+  }
+
+  .btnSource:disabled {
+    background-color: #f4f1f0;
+    border: none;
+  }
+
+  .gridTwo p {
+    font-family: 'inter', sans-serif;
+    text-align: start;
+    width: 100%;
+    height: 89%;
   }
 
   /* about me page */
+
   .AboutMePage {
     width: 100%;
     margin-top: 6%;
