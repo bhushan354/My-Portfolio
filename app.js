@@ -363,9 +363,5 @@ function checkEmailCase() {
   return false;
 }
 
-submit.addEventListener('click', (e) => {
-  e.preventDefault();
-  if (checkEmailCase()) {
-    form.submit();
-  }
+
 });
