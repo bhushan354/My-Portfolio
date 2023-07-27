@@ -859,12 +859,7 @@ input#Email {
 
 .line3 {
   width: 100%;
-  margin-top: 674px;
-}
-
-.subInput :nth-child(4) {
-  display: flex;
-  justify-content: center;
+  margin-top: 744px;
 }
 
 .submit {
@@ -981,7 +976,7 @@ input#Email {
 .image {
   width: 100%;
   height: 100%;
-  background-image: url('popupImg.png');
+  background-image: url("popupImg.png");
   background-size: cover;
   background-position: center center;
 }
@@ -1070,6 +1065,24 @@ input#Email {
 .btnSource:disabled {
   background-color: #f4f1f0;
   border: none;
+}
+
+/* displayError */
+.displayError {
+  display: flex;
+  font-size: 12px;
+  width: 86%;
+  font-weight: 100;
+  margin-top: 6px;
+  line-height: 12px;
+  height: 22px;
+  text-align: initial;
+  color: antiquewhite;
+  padding: 9px;
+  background-color: #c14b49;
+  border-radius: 8px;
+  justify-content: center;
+  font-family: "popins", sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -1251,7 +1264,7 @@ input#Email {
     width: 48%;
     align-items: center;
     margin-left: 345px;
-    border: 1px solid  #212121;
+    border: 1px solid #212121;
   }
 
   .multiPostPage {
@@ -1771,7 +1784,7 @@ input#Email {
   }
 
   .gridTwo p {
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     text-align: start;
     width: 100%;
     height: 89%;
@@ -2058,5 +2071,23 @@ input#Email {
   .subInput :nth-child(4) {
     display: flex;
     justify-content: flex-start;
+  }
+
+  /* displayError */
+  .displayError {
+    display: flex;
+    font-size: 12px;
+    width: 86%;
+    font-weight: 100;
+    margin-top: 6px;
+    line-height: 12px;
+    height: 22px;
+    text-align: initial;
+    color: antiquewhite;
+    padding: 9px;
+    background-color: #c14b49;
+    border-radius: 8px;
+    justify-content: center;
+    font-family: "popins", sans-serif;
   }
 }
