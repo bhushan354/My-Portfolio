@@ -330,17 +330,4 @@ function generateThirdPage() {
     });
   });
 
-  // for blur desktop background
-  const blurButtons = document.querySelectorAll('.secondProjectButton');
-  const sections = document.querySelectorAll('section');
-
-  blurButtons.forEach((blurButton) => {
-    blurButton.addEventListener('click', () => {
-      sections.forEach((section) => {
-        section.style.filter = 'blur(8px)';
-      });
-    });
-  });
-}
-
-generateThirdPage();
+ 
