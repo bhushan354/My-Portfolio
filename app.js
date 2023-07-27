@@ -362,6 +362,10 @@ function checkEmailCase() {
   Error.innerHTML = `Your email should contain only lowercase letters. You need to type like this : ${emailText.toLowerCase()}`;
   return false;
 }
-
+submit.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (checkEmailCase()) {
+    form.submit();
+  }
 
 });
