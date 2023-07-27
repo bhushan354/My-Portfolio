@@ -344,3 +344,28 @@ function generateThirdPage() {
 }
 
 generateThirdPage();
+
+// validate contact form
+
+const email = document.querySelector('#Email');
+const form = document.querySelector('#form');
+const submit = document.querySelector('.submit');
+const Error = document.querySelector('span');
+
+function checkEmailCase() {
+  const emailText = email.value;
+  if (emailText.toLowerCase() === email.value) {
+    Error.innerHTML = '';
+    return true;
+  }
+  Error.classList.add('displayError');
+  Error.innerHTML = `Your email should contain only lowercase letters. You need to type like this : ${emailText.toLowerCase()}`;
+  return false;
+}
+
+submit.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (checkEmailCase()) {
+    form.submit();
+  }
+});
