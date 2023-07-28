@@ -362,10 +362,40 @@ function checkEmailCase() {
   Error.innerHTML = `Your email should contain only lowercase letters. You need to type like this : ${emailText.toLowerCase()}`;
   return false;
 }
-
 submit.addEventListener('click', (e) => {
   e.preventDefault();
   if (checkEmailCase()) {
     form.submit();
   }
 });
+
+// local storage
+const textArea1 = form.querySelector('#textArea1');
+const name = form.querySelector('#Name');
+const storedDataUser = localStorage.getItem('userData');
+const changeStoredData = storedDataUser ? JSON.parse(storedDataUser) : {};
+
+if (changeStoredData) {
+  name.value = changeStoredData.name || '';
+  email.value = changeStoredData.email || '';
+  textArea1.value = changeStoredData.textArea1 || '';
+}
+
+function updateForm() {
+  const nameValue = name.value;
+  const emailValue = email.value;
+  const textArea1Value = textArea1.value;
+
+  const dataOfForm = {
+    name: nameValue,
+    email: emailValue,
+    textArea1: textArea1Value,
+  };
+
+  const jsonFormData = JSON.stringify(dataOfForm);
+  localStorage.setItem('userData', jsonFormData);
+}
+
+name.addEventListener('input', updateForm);
+email.addEventListener('input', updateForm);
+textArea1.addEventListener('input', updateForm);
